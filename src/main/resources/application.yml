@@ -1,0 +1,12 @@
+server.port: 5000
+cloud.aws.region.auto: false
+cloud.aws.stack.auto: false
+cloud.aws.region.static: ${CLIENT_REGION}
+cloud.aws.credentials.access-key: ${AWS_ACCESSKEY}
+cloud.aws.credentials.secret-key: ${AWS_SECRETKEY}
+mail.sender.email: ${SENDER_MAIL}
+spring.servlet.multipart.max-file-size: 20MB
+spring.servlet.multipart.max-request-size: 20MB
+spring.http.multipart.max-file-size: 20MB
+spring.http.multipart.max-request-size: 20MB
+
